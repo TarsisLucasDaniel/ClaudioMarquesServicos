@@ -1,0 +1,45 @@
+.cabeçalho-menu{
+    width: 24px;
+    height: 24px;
+    background-image: url("../icones/menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabeçalho{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container-imagem{
+    padding: 1em;
+}
+
+.efeito-hover{
+   transition-duration: 1s;
+   border-radius: 5px;
+}
+
+.efeito-hover:hover{
+    background-color: rgba(117, 117, 117, 0.356);
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container-botao:checked~.lista-menu{
+    display: block;
+}
+

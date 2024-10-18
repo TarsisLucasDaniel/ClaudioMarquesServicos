@@ -1,0 +1,12 @@
+@import url("estilos/header.css");
+
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --cor-fundo-header:#ffffff;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: Arial, Helvetica, sans-serif;
+}
