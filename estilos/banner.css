@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,100..900;1,100..900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fonte-titulo:"Jost", sans-serif;
+    --cor-de-fundo-banner:linear-gradient(97.54deg, #003f7a 35.49%, #02b7ff 165.37%);
+    --fonte-sub-titulo:"Roboto Condensed", sans-serif;
+}
+
+
+.banner{
+    background: var(--cor-de-fundo-banner);
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner-titulo{
+    font-size: 2em;
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.651);
+}
+
+.banner-sub-titulo{
+    margin: 20px 0;
+    font-size: 1.3em;
+    font-weight: 400;
+    font-family: var(--fonte-sub-titulo);
+}

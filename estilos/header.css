@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 .cabeçalho-menu{
     width: 24px;
     height: 24px;
@@ -43,3 +46,25 @@
     display: block;
 }
 
+.lista-menu-titulo,
+.lista-menu-item{
+   padding: 1em;
+   background-color: white;
+   border-bottom-right-radius: 10px;
+}
+
+.lista-menu-titulo{
+   color: rgb(0, 52, 150);
+   font-family: "Ubuntu", sans-serif;
+   font-weight: bold;
+}
+
+.lista-menu-link{
+    text-decoration: none;
+    font-family:"Figtree", sans-serif ;
+    color: rgb(0, 0, 255);
+}
+
+.container-botao{
+    display: none;
+}
