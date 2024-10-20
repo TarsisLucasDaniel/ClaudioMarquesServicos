@@ -1,11 +1,11 @@
- @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 
 :root{
     --cor-de-fundo0:#EDF0F2;
     --cor-titulo:#303030;
     --fonte-titulo: "Exo 2", sans-serif;
     --fonte-titulo-dois: "Poppins", sans-serif;
-
+    --fonte-paragrafo:"Afacad Flux", sans-serif;
 }
 
 
@@ -13,7 +13,9 @@
     background-color: var(--cor-de-fundo0);
     padding: 2.5em 2em;
     position: relative;
-    height: 300px;
+    height:130px;
+    
+    box-shadow: inset 0px 1px 2px rgb(0, 0, 0);
 }
 
 .sessao-informação-titulo{
@@ -22,16 +24,34 @@
    left: 35px;
    position: absolute;
    font-size:28px;
-   font-weight: 900;
+   font-weight: 600;
    color: #5a5a5a;
 }
 
 .sessao-informação-titulo-dois{
+    text-decoration: underline;
    font-family:var(--fonte-titulo-dois) ;
    left: 35px;
-   top: 100px;
+   top: 110px;
    position: absolute;
-   font-size: 1.1em;
+   font-size: 1.2em;
    font-weight:600;
    color: #5a5a5ad5;
+}
+
+.sessao-infomação-paragrafo{
+   text-align: justify;
+   font-family:var(--fonte-paragrafo) ;
+   left: 35px;
+   padding: 0px 2em 0px 0px;
+   top: 135px;
+   position: absolute;
+   font-size: 17px;
+   font-weight:600;
+   color: #5a5a5ad5;
+}
+
+strong{
+    color: #5a5a5ae7;
+    font-weight: bold;
 }
