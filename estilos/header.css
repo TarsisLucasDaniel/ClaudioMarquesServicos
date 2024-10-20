@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap');
 
 
 .cabeçalho-menu{
@@ -84,4 +84,24 @@
 
 .container-botao{
     display: none;
+}
+
+.caixa-email-link{
+    box-shadow: 0px 0px 7px black;
+    border: 1px solid black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.753);
+    text-decoration: none;
+    text-align: center;
+    font-family:  "Noto Serif Oriya", serif;
+    padding: 10px 5px 5px 5px;
+    font-size: 2vw;
+    color: white;
+    background-color: #017ABB;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+}
+
+.caixa-email-link:hover{
+    background-color: #0000ffea;
+    color: rgba(255, 255, 255, 0.87);
 }
