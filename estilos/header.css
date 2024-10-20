@@ -27,13 +27,31 @@
     padding: 1em;
 }
 
-.efeito-hover{
+.efeito-hover-whatsappp{
    transition-duration: 1s;
    border-radius: 5px;
 }
 
-.efeito-hover:hover{
-    background-color: rgba(117, 117, 117, 0.356);
+.efeito-hover-whatsappp:hover{
+    background-color: #05D331;
+}
+
+.efeito-hover-facebook{
+    transition-duration: 1s;
+    border-radius: 5px;
+}
+
+.efeito-hover-facebook:hover{
+    background-color: #2577FF;
+}
+
+.efeito-hover-instagram{
+    transition-duration: 1s;
+    border-radius: 5px;
+}
+
+.efeito-hover-instagram:hover{
+    background-color: #C7368C;
 }
 
 .lista-menu{
@@ -50,7 +68,6 @@
 .lista-menu-item{
    padding: 1em;
    background-color: white;
-   border-bottom-right-radius: 10px;
 }
 
 .lista-menu-titulo{

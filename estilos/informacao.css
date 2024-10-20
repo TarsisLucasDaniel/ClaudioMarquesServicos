@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+:root{
+    --cor-de-fundo0:#EDF0F2;
+    --cor-titulo:#303030;
+    --fonte-titulo: "Exo 2", sans-serif;
+    --fonte-titulo-dois: "Poppins", sans-serif;
+
+}
+
+
+.sessao-informação{
+    background-color: var(--cor-de-fundo0);
+    padding: 2.5em 2em;
+    position: relative;
+    height: 300px;
+}
+
+.sessao-informação-titulo{
+   text-shadow: 1px 1px 0px rgb(0, 0, 0);
+   font-family: var(--fonte-titulo);
+   left: 35px;
+   position: absolute;
+   font-size:28px;
+   font-weight: 900;
+   color: #5a5a5a;
+}
+
+.sessao-informação-titulo-dois{
+   font-family:var(--fonte-titulo-dois) ;
+   left: 40px;
+   top: 100px;
+   position: absolute;
+   font-size: 1.1em;
+   font-weight:600;
+   color: #5a5a5ad5;
+}
