@@ -8,13 +8,11 @@
     --fonte-paragrafo:"Afacad Flux", sans-serif;
 }
 
-
 .sessao-informação{
     background-color: var(--cor-de-fundo0);
     padding: 2.5em 2em;
     position: relative;
     height:130px;
-    
     box-shadow: inset 0px 1px 2px rgb(0, 0, 0);
 }
 
