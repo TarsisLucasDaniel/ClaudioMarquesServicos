@@ -5,8 +5,7 @@
     --font-sub-titulo:"Nunito Sans", sans-serif;
 }
 
-
-.card{
+.card-climatizador{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.404);
@@ -15,37 +14,37 @@
     padding: 1em;
 }
 
-.descrição-titulo{
+.card-descrição-climatizador{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.descrição-titulo-climatizador{
     color: #003F7A;
     font-weight: 600;
     font-family: var(--fonte-titulo);
 }
 
-.descrição-sub-titulo{
-    font-size: 20px;
+.descrição-sub-titulo-climatizador{
+    font-size: 23px;
     color: black;
     font-weight: bold;
     font-family: var(--font-sub-titulo);
     margin: 0.5em 0;
 }
 
-.descrição-texto{
+.descrição-texto-climatizador{
     font-size: 14px;
     font-family: var(--fonte-titulo);
 }
 
-.card-descrição{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
-}
-
-.icones-marcas{
+.icones-marcas-climatizador{
     display: flex;
     justify-content: space-between;
 }
 
-.marcas{
+.marcas-climatizador{
     display: flex;
 }
 
@@ -53,7 +52,7 @@
     margin: 0 0.5em;
 }
 
-.link-marca{
+.link-marca-philco{
     background-color: rgba(0, 0, 0, 0.856);
     font-family: var(--fonte-titulo);
     text-shadow: 1px 1px 1px black;
@@ -63,9 +62,10 @@
     text-decoration: none;
     border-radius: 5px;
     transition-duration: 0.5s;
+    margin-right: 10px;
 }
 
-.link-marca:hover{
- background-color: rgba(0, 0, 0, 0.568);
- color: rgb(197, 197, 197);
-}
+.link-marca-philco:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgb(197, 197, 197);
+   }
