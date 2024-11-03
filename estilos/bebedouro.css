@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
 :root{
     --fonte-titulo: "Open Sans", sans-serif;
     --font-sub-titulo:"Nunito Sans", sans-serif;
 }
 
-.card-microondas{
+.card-bebedouro{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.404);
@@ -15,19 +14,19 @@
     padding: 1em;
 }
 
-.card-descrição-microondas{
+.card-descrição-bebedouro{
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
 
-.descrição-titulo-microoondas{
+.descrição-titulo-bebedouro{
     color: #003F7A;
     font-weight: 600;
     font-family: var(--fonte-titulo);
 }
 
-.descrição-sub-titulo-microondas{
+.descrição-sub-titulo-bebedouro{
     font-size: 20px;
     color: black;
     font-weight: bold;
@@ -35,21 +34,21 @@
     margin: 0.5em 0;
 }
 
-.descrição-texto-microondas{
+.descrição-texto-bebedouro{
     font-size: 14px;
     font-family: var(--fonte-titulo);
 }
 
-.icones-marcas-microondas{
+.icones-marcas-bebedouro{
     display: flex;
     justify-content: space-between;
 }
 
-.marcas-microondas{
+.marcas-bebedouro{
     display: flex;
 }
 
-.link-marca-eletrolux{
+.link-marca-philips{
     background-color: rgba(0, 0, 0, 0.856);
     font-family: var(--fonte-titulo);
     text-shadow: 1px 1px 1px black;
@@ -59,10 +58,16 @@
     text-decoration: none;
     border-radius: 5px;
     transition-duration: 0.5s;
-    margin-right: 3px;
+    margin-right: 12px;
 }
 
-.link-marca-eletrolux:hover{
+.link-marca-philips:hover{
     background-color: rgba(0, 0, 0, 0.568);
     color: rgb(197, 197, 197);
-   }
+}
+
+.imagens-icones{
+    border-radius: 7px;
+    transition-duration: 0.5s;
+}
+
