@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&display=swap');
+
+:root{
+    --cor-de-fundo-tabela:#EDF0F2;
+    --texto-dias-semanais-tbody: "Inter", sans-serif;
+    --fonte-texto-thead-tabela:"Exo 2", sans-serif;
+    --fonte-texto-aberto-fechado-tbody:"Oxygen", sans-serif;
+    --fonte-numeros-tabela: ;
+}
+
+#tabela-responsiva{
+    overflow-x: auto;
+}
+
+#tela-fundo-tabela{
+   background-color: var(--cor-de-fundo-tabela);
+}
+
+table{
+    max-width: 900px;
+    min-width: 700px;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+
+thead{
+    background-color: white;
+    font-size: 1.3em;
+    font-family: var(--fonte-texto-thead-tabela);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+td{
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    padding: 10px;
+}
+
+th{
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    padding: 10px;
+}
+
+
+.corpo-tabela tr:nth-child(even){
+    background-color:rgb(223, 223, 223);
+}
+
+.corpo-tabela tr:nth-child(odd){
+    background-color:rgb(202, 202, 202);
+}
+
+#td-fechado{
+    text-align: center;
+}
+
+.dias-semanais{
+    text-align:center;
+    font-family: var(--texto-dias-semanais-tbody);
+}
+
+.aberto-fechado{
+    text-align: center;
+    font-family: var(--fonte-texto-aberto-fechado-tbody);
+}
