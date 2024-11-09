@@ -1,45 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+Oriya:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oxygen:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root{
     --cor-de-fundo-tabela:#EDF0F2;
     --texto-dias-semanais-tbody: "Inter", sans-serif;
     --fonte-texto-thead-tabela:"Exo 2", sans-serif;
     --fonte-texto-aberto-fechado-tbody:"Oxygen", sans-serif;
-    --fonte-numeros-tabela: ;
+    --fonte-numeros-tabela:"Ubuntu", sans-serif ;
+}
+
+main{
+    background-color:#FFFFFF;
+    max-width: 950px;
+    margin: auto;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #tabela-responsiva{
-    overflow-x: auto;
-}
-
-#tela-fundo-tabela{
-   background-color: var(--cor-de-fundo-tabela);
+    overflow-x: auto;  
+    background-color: var(--cor-de-fundo-tabela);
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
 }
 
 table{
-    max-width: 900px;
-    min-width: 700px;
     border-collapse: collapse;
+    max-width: 900px;
+    min-width: 440px;
     margin: auto;
-    position: relative;
+    margin-top: 15px;
 }
 
 thead{
     background-color: white;
-    font-size: 1.3em;
     font-family: var(--fonte-texto-thead-tabela);
     font-weight: 600;
     text-decoration: none;
 }
 
+#titulo-tabela{
+    background-image: linear-gradient(to right, #cbcccc,  transparent);
+    color:rgb(0, 0, 0) ;
+    font-size: 1.4em;
+    font-family: var(--fonte-numeros-tabela);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-right: 10px;
+    margin-left: -6px;
+    margin-top: -3px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+}
+
 td{
-    border: 1px solid rgba(0, 0, 0, 0.671);
+    color: rgb(0, 0, 0);
+    border: 0.3px solid black;
     padding: 10px;
 }
 
 th{
-    border: 1px solid rgba(0, 0, 0, 0.671);
-    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.788);
+    font-size: 1.4em;
+    border: 0.3px solid black;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-texto-thead-tabela);
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 
