@@ -29,7 +29,7 @@ main{
 
 table{
     border-collapse: collapse;
-    max-width: 900px;
+    max-width: 300px;
     margin: auto;
     margin-top: 15px;
 }
@@ -59,18 +59,18 @@ thead{
 td{
     color: rgb(0, 0, 0);
     border: 0.3px solid black;
-    padding: 10px;
+    padding: 5px;
 }
 
 th{
     background-color: rgba(255, 255, 255, 0.788);
     font-size: 1.4em;
     border: 0.3px solid black;
-    padding: 15px;
+    padding: 10px;
     color: rgb(0, 0, 0);
     font-family: var(--fonte-texto-thead-tabela);
     font-weight: normal;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-align: center;
 }
 
