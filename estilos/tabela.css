@@ -29,7 +29,7 @@ main{
 
 table{
     border-collapse: collapse;
-    max-width: 300px;
+    max-width: 250px;
     margin: auto;
     margin-top: 15px;
 }
@@ -64,7 +64,7 @@ td{
 
 th{
     background-color: rgba(255, 255, 255, 0.788);
-    font-size: 1.4em;
+    font-size: 1.3em;
     border: 0.3px solid black;
     padding: 10px;
     color: rgb(0, 0, 0);
