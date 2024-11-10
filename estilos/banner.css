@@ -14,7 +14,7 @@
 }
 
 .banner-titulo{
-    font-size: 2em;
+    font-size: 1.7em;
     font-family: var(--fonte-titulo);
     font-weight: 600;
     text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.651);
