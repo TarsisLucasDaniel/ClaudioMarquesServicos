@@ -30,7 +30,6 @@ main{
 table{
     border-collapse: collapse;
     max-width: 900px;
-    min-width: 440px;
     margin: auto;
     margin-top: 15px;
 }
