@@ -28,7 +28,7 @@
 }
 
 .sessao-informação-titulo-dois{
-    text-decoration: underline;
+   text-decoration: underline;
    font-family:var(--fonte-titulo-dois) ;
    left: 35px;
    top:97px;
@@ -36,6 +36,7 @@
    font-size: 1.2em;
    font-weight:600;
    color: #5a5a5ad5;
+   margin-top: 14px;
 }
 
 .sessao-infomação-paragrafo{
