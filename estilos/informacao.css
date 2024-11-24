@@ -21,6 +21,7 @@
    text-shadow: 1px 1px 0px rgb(0, 0, 0);
    font-family: var(--fonte-titulo);
    left: 35px;
+   top: 25px;
    position: absolute;
    font-size:28px;
    font-weight: 600;
@@ -31,12 +32,12 @@
    text-decoration: underline;
    font-family:var(--fonte-titulo-dois) ;
    left: 35px;
-   top:97px;
+   top:121px;
    position: absolute;
    font-size: 1.2em;
    font-weight:600;
    color: #5a5a5ad5;
-   margin-top: 14px;
+   
 }
 
 .sessao-infomação-paragrafo{
